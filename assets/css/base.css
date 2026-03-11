@@ -59,6 +59,9 @@ ul{
 .d-inline-block{
     display: inline-block;
 }
+.d-grid{
+    display: grid;
+}
 
 /* --------------------{ Flex Properties }-------------------- */
 
@@ -76,6 +79,21 @@ ul{
 }
 .flex-grow-3{
     flex-grow: 3;
+}
+
+/* --------------------{ Grid Properties }-------------------- */
+
+.gd-columns-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+.gd-columns-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+.gd-columns-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+.gd-columns-5{
+    grid-template-columns: repeat(5, 1fr);
 }
 
 /* --------------------{ Justify Content }-------------------- */
