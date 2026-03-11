@@ -1,4 +1,5 @@
 /* --------------------{ Basics }-------------------- */
+
 *{
     margin: 0;
     padding: 0;
@@ -116,16 +117,16 @@ ul{
 
 /* --------------------{ Align Items }-------------------- */
 
-.ai-start{
+.al-start{
     align-items: flex-start;
 }
-.ai-end{
+.al-end{
     align-items: flex-end;
 }
-.ai-center{
+.al-center{
     align-items: center;
 }
-.ai-stretch{
+.al-stretch{
     align-items: stretch;
 }
 
