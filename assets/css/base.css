@@ -31,6 +31,9 @@ ul{
 .color{
     color: white;
 }
+.color-gray{
+    color: gray;
+}
 .color-white{
     color: rgb(224, 224, 224);
 }
@@ -45,6 +48,9 @@ ul{
 }
 .bg-color-white{
     background: white;
+}
+.bg-color-black{
+    background: black;
 }
 
 /* --------------------{ Fonts }-------------------- */

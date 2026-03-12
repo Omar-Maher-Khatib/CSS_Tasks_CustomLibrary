@@ -1,3 +1,4 @@
+/* --------------------{ Basics }-------------------- */
 
 *{
     margin: 0;
@@ -9,9 +10,15 @@
     --primary-color: #f4623a;
     --secondry-color: #fff;
 }
+
+/* --------------------{ Header }-------------------- */
+
 header {
     z-index: 9;
 }
+
+/* --------------------{ Hero }-------------------- */
+
 .hero .background-img{
     background-image: url(./../img/bg-masthead.jpg);
     background-size: cover;
@@ -34,6 +41,8 @@ header {
     text-transform: uppercase;
 }
 
+/* --------------------{ Need }-------------------- */
+
 .need .divider{
     width: 3%;
     height: 4px;
@@ -45,4 +54,16 @@ header {
     cursor: pointer;
     border-radius: 30px;
     text-transform: uppercase;
+}
+
+/* --------------------{ Services }-------------------- */
+
+.service .divider{
+    width: 5%;
+    height: 4px;
+    border-top: 1px solid black;
+}
+.service img{
+    width: 50px;
+    height: auto;
 }
