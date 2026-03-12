@@ -541,3 +541,20 @@ f-sm-2{
     position: fixed;
 }
 
+/* --------------------{ Inputs }-------------------- */
+
+.input-design{
+    width: 50%;
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    text-align: start;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+}
+.input-design::placeholder{
+   color: #000;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+}
