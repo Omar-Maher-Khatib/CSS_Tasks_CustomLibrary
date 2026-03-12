@@ -13,9 +13,10 @@ a{
 }
 ul{
     list-style: none;
+
 }
 .container{
-    width: calc(100% - 41%);
+    width: 65%;
     margin: 0 auto;
 }
 .row{
@@ -30,20 +31,47 @@ ul{
 .color{
     color: white;
 }
+.color-white{
+    color: rgb(224, 224, 224);
+}
+.color-black{
+    color: black;
+}
+.color-orange{
+    color: #f4623a;
+}
 .bg-color{
     background: #f4623a;
+}
+.bg-color-white{
+    background: white;
 }
 
 /* --------------------{ Fonts }-------------------- */
 
 .f-sm{
-    font-size: 14px;
+    font-size: calc(var(--spacer) * 1);
+}
+f-sm-2{
+    font-size: calc(var(--spacer) * 1.5);
 }
 .f-md{
-    font-size: 18px;
+    font-size: calc(var(--spacer) * 2);
+}
+.f-md-2{
+    font-size: calc(var(--spacer) * 2.5);
 }
 .f-lg{
-    font-size: 24px;
+    font-size: calc(var(--spacer) * 3);
+}
+.f-xl{
+    font-size: calc(var(--spacer) * 4);
+}
+.f-xxl{
+    font-size: calc(var(--spacer) * 5);
+}
+.f-xxxl{
+    font-size: calc(var(--spacer) * 6);
 }
 .f-bold{
     font-weight: bold;
@@ -353,19 +381,24 @@ ul{
     padding-bottom: 0;
 }
 .py-1{
-    padding: calc(var(--spacer) * 1) 0;
+    padding-top: calc(var(--spacer) * 1);
+    padding-bottom: calc(var(--spacer) * 1);
 }
 .py-2{
-    padding: calc(var(--spacer) * 2) 0;
+    padding-top: calc(var(--spacer) * 2);
+    padding-bottom: calc(var(--spacer) * 2);
 }
 .py-3{
-    padding: calc(var(--spacer) * 3) 0;
+    padding-top: calc(var(--spacer) * 3);
+    padding-bottom: calc(var(--spacer) * 3);
 }
 .py-4{
-    padding: calc(var(--spacer) * 4) 0;
+    padding-top: calc(var(--spacer) * 4);
+    padding-bottom: calc(var(--spacer) * 4);
 }
 .py-5{
-    padding: calc(var(--spacer) * 5) 0;
+    padding-top: calc(var(--spacer) * 5);
+    padding-bottom: calc(var(--spacer) * 5);
 }
 /* ---------------------------------------- */
 .px-0{
@@ -373,19 +406,24 @@ ul{
     padding-right: 0;
 }
 .px-1{
-    padding: 0 calc(var(--spacer) * 1);
+    padding-right: calc(var(--spacer) * 1);
+    padding-left: calc(var(--spacer) * 1);
 }
 .px-2{
-    padding: 0 calc(var(--spacer) * 2);
+    padding-right: calc(var(--spacer) * 2);
+    padding-left: calc(var(--spacer) * 2);
 }
 .px-3{
-    padding: 0 calc(var(--spacer) * 3);
+    padding-right: calc(var(--spacer) * 3);
+    padding-left: calc(var(--spacer) * 3);
 }
 .px-4{
-    padding: 0 calc(var(--spacer) * 4);
+    padding-right: calc(var(--spacer) * 4);
+    padding-left: calc(var(--spacer) * 4);
 }
 .px-5{
-    padding: 0 calc(var(--spacer) * 5);
+    padding-right: calc(var(--spacer) * 5);
+    padding-left: calc(var(--spacer) * 5);
 }
 /* ---------------------------------------- */
 .pt-0{
@@ -463,3 +501,16 @@ ul{
 .pr-5{
     padding-right: calc(var(--spacer) * 5);
 }
+
+/* --------------------{ Positions }-------------------- */
+
+.pos-relative{
+    position: relative;
+}
+.pos-absolute{
+    position: absolute;
+}
+.pos-fixed{
+    position: fixed;
+}
+

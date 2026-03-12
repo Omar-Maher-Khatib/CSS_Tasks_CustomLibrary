@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --spacer: 10px;
+    --primary-color: #f4623a;
+    --secondry-color: #fff;
+}
+header {
+    z-index: 9;
+}
+.hero .background-img{
+    background-image: url(./../img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+.hero .divider{
+    width: 2.5%;
+    height: 2px;
+}
+.hero .content{
+    z-index: 1;
+    background: rgb(92, 79, 68, 0.8);
+}
+.hero .find-btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.need .divider{
+    width: 3%;
+    height: 4px;
+    border-top: 1px solid black;
+}
+
+.need .get-started-btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
